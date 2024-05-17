@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+    border: 0.5rem outset black;
+}
+#title{
+    border-style: double;
+}
+#title,#options,#list{
+    text-align: center;
+}
+
+#list{
+    list-style-type: none;
+}
+
+.image{
+    width: 10rem;
+    display: block;
+    margin: auto;
+    border-style: dotted;
+}
+
+a{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+table{
+    margin:auto;
+    border: 1px outset grey;
+}
+
+td,th{
+    border: thin inset grey;
+}
